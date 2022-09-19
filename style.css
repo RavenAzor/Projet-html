@@ -1,0 +1,68 @@
+body{
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR-tif9-p-5cMRm0RBmiwXtOcJmaxkq_sMJJA&usqp=CAU);
+    background-size: cover;
+    background-position: bottom 50px right 1px;
+    margin:0px 0px 10px 0px;
+}
+
+
+h1{
+    color: #02ABF7;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 50px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+h2{
+    color: #7E88F5;
+    text-align: center;
+    font-size: 30px;
+}
+
+p{
+    color:#fff;
+    font-size: 18px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+h3{
+    font-size: 25px;
+    color: azure;
+}
+
+.img{
+    margin:0px 0px 0px 250px;
+}
+
+a{
+    margin:0px 0px 0px 290px;
+    font-size: 20px;
+    
+}
+
+a:link{
+    color: aqua;
+}
+
+a:visited{
+    color:dodgerblue;
+}
+
+.tarif{
+    margin: 0px 0px 0px 250px;    
+}
+
+.table{
+    color: #fff;
+}
+
+.check{
+    padding:0px 0px 0px 30px;
+}
+
+@media only screen and (max-width:600px) and (min-width:400px){
+    h4{
+        color:#f00
+    }
+}

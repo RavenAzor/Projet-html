@@ -5,14 +5,17 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <h1>Les Tarifs !</h1>
     <br/>
     <hr />
     <br />
+
     <h2>Vous kiffez l'univers de TLOU ? Alors vous allez adorer notre marchandise !</h2>
-    <table border="1">
+    
+    <div class="table" align="center"><table border="1">
         <tr>
             <th colspan="4" bgcolor="yellow">Tarifs</th>
         </tr>
@@ -26,25 +29,33 @@
             <td><img src="tlouu.jpg" alt="tlou" width="200"></td>
             <td>T-shirt The Last Of Us</td>
             <td>35 €</td>
-            <td></td>
+            <td class="check"><input type="checkbox" id="dispo" name="dispo" checked></td>
+            <label for="dispo"></label>
         </tr>
     <tr>
         <td><img src="mug.jpg" alt="mug" width="200"></td>
         <td>Mug The Last Of Us</td>
         <td rowspan="2">15 €</td>
-        <td></td>
+        <td class="check"><input type="checkbox" id="dispo" name="dispo" ></td>
+        <label for="dispo"></label>
     </tr>
     <tr>
         <td><img src="collier.jpg" alt="collier" width="200"></td>
         <td>Pendentif Luciole The Last Of Us</td>
-        <td></td>
+        <td class="check"><input type="checkbox" id="dispo" name="dispo" checked></td>
+        <label for="dispo"></label>
     </tr>
         <td><img src="livre.jpg" alt="livre" width="200"></td>
         <td>Livre The Last Of Us</td>
         <td>20 €</td>
-        <td></td>
-    </table>
+        <td class="check"><input type="checkbox" id="dispo" name="dispo"></td>
+        <label for="dispo"></label>
+    </table></div>
+    <br>
+    <hr>
     <h3>Et pour retourner sur la première page cliquez ici :</h3>
-    <a href="test_html.html"><strong>Le Coin Gamer</strong></a>
+
+    <div class="testhtml"><a href="test_html.html"><strong>Le Coin Gamer</strong></a></div>
+
 </body>
 </html>
